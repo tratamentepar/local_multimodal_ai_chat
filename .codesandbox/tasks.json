@@ -1,0 +1,18 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "pip install",
+      "command": "python -m pip install Python 3.12.1"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "pip start": {
+      "name": "pip start",
+      "command": "pip start",
+      "runAtStart": true
+    }
+  }
+}
